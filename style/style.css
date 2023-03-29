@@ -1,0 +1,315 @@
+.photo{
+    width: 225px;
+    height: 150px;
+    border-radius: 150px;
+    border-style: solid;
+    padding: 2px;
+}
+.monEcole{
+    display: flex;
+    justify-content: flex-start;
+}
+#bouton1{
+    margin: 2px;
+    color: red;
+    border: none;
+    font-size: 30px;
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+h1{
+    margin-right: 20px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.about, .acc, .inscription, .contact{
+    font-size: larger;
+    color: aliceblue;
+}    
+.Nous, .accueil, .Inscrit, .cont{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    border-style: solid;
+    background-color: grey;
+}
+.d-flex{
+    display: flex;
+    border-style: solid;
+    background-color: grey;
+    justify-content: center;
+    font-size: larger;
+    color: aliceblue;
+}
+main{
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+    background-color: RGBa(60,200,60,0.15);
+}
+#ligne{
+    height: 105px;
+}
+#part{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    font-size: 60px;
+    font-weight: bold;
+    border-style: solid;
+}
+.pub{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 20px;
+}
+.courspage2{
+    display: block;
+    margin-top: 70px;
+}
+.courspage2bfem{
+    display: block;
+    margin-top: 10px;
+}
+.courspage2bac{
+    display: block;
+    margin-top: 10px;
+}
+.page1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.image1{
+    height: 215px;
+    width: 392.45px;
+}
+.construc{
+    margin-top: 200px;
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.p1{
+    font-size: larger;
+    font-weight: bold;
+}
+.p2{
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+}
+.ddp, .fdp{
+    color: brown;
+}
+label{
+    font-weight: bold;
+    margin: 0px 5px 0px 3px;
+}
+.envoie{
+    font-size: larger;
+    color: aliceblue;
+    background-color: grey;
+    border: 3px solid black;
+    float: right;
+}
+.babacar{
+  border: 2px solid blue;
+  float: left;
+  margin: 4px;
+}
+.babs{
+  width: 135px;
+}
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .carous {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+  }
+  
+  .carous > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 170px);
+    opacity: 0;
+    animation: display 8s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  
+  @media screen and (max-width:780px){
+    .photo{
+      width: 175px;
+      height: 117px;
+      border-radius: 117px;
+      padding: 1px;
+    }
+    #bouton1{
+      margin: 1px;
+      font-size: 23px;
+  }
+  h1{
+    margin-right: 15px;
+}
+.Nous, .accueil, .Inscrit{
+  width: 117px;
+  height: 27px;
+}
+main{
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid yellow;
+}
+#ligne{
+  height: 81px;
+}
+#part{
+  margin: 1px;
+  font-size: 46px;
+}
+.pub{
+  font-size: 15px;
+}
+.courspage2{
+  margin-top: 54px;
+}
+.courspage2bfem{
+  margin-top: 7.5px;
+}
+.courspage2bac{
+  margin-top: 7.5px;
+}
+.page1{
+  font-size: 15px;
+}
+.image1{
+  height: 167px;
+  width: 305px;
+}
+.construc{
+  margin-top: 156px;
+  margin-bottom: 140px;
+}
+label{
+  margin: 0px 3px 0px 2px;
+}
+.envoie{
+  border: 2px solid black;
+}
+.babacar{
+border: 1px solid blue;
+margin: 2px;
+}
+.babs{
+  width: 105px;
+}
+}
+
+@media screen and (min-width:993px) and (max-width:1280px){
+    .photo{
+      width: 287px;
+      height: 191px;
+      border-radius: 191px;
+      padding: 2px;
+    }
+    #bouton1{
+      margin: 2px;
+      font-size: 37px;
+  }
+  h1{
+    margin-right: 24px;
+}
+.Nous, .accueil, .Inscrit{
+  width: 191px;
+  height: 44px;
+}
+main{
+  border-top: 5px solid yellow;
+  border-bottom: 5px solid yellow;
+}
+#ligne{
+  height: 132px;
+}
+#part{
+  margin: 2px;
+  font-size: 75px;
+}
+.pub{
+  font-size: 24px;
+}
+.courspage2{
+  margin-top: 88px;
+}
+.courspage2bfem{
+  margin-top: 12px;
+}
+.courspage2bac{
+  margin-top: 12px;
+}
+.page1{
+  font-size: 24px;
+}
+.image1{
+  height: 273px;
+  width: 500px;
+}
+.construc{
+  margin-top: 328px;
+  margin-bottom: 295px;
+}
+label{
+  margin: 0px 5px 0px 3px;
+}
+.envoie{
+  border: 2px solid black;
+}
+.babacar{
+border: 2px solid blue;
+margin: 4px;
+}
+.babs{
+  width: 172px;
+}
+  }
